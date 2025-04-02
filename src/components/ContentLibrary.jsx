@@ -25,7 +25,7 @@ const ContentLibrary = () => {
       try {
         const { data } = await axios.get(
           'https://socio-99.onrender.com/api/content',
-          { timeout: 3000 }
+          { timeout: 8000 }
         );
         
         // Merge API data with dummy data
